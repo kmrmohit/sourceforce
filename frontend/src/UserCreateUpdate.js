@@ -26,7 +26,6 @@ class UserCreateUpdate extends Component {
       }
 
       handleCreate(){
-          console.log("entry point");
         usersService.createUser(
           {
             "first_name": this.refs.firstName.value,
